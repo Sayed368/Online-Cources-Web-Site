@@ -1,0 +1,715 @@
+body{
+    font-family: 'Nunito', sans-serif;
+    /* font-family: Fontawesome !important; */
+}
+   
+::selection {
+    background: #ff5421;
+    text-shadow: none;
+    color: #fff;
+}
+
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Old versions of Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Edge, Opera and Firefox */
+}
+.card img{
+    height: 200px;
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+
+    color: seashell;
+  }
+
+.home{
+    width: 100%;
+    height: 80%;
+}
+
+.about{
+    padding-top:60px;
+    padding-bottom: 60px;
+
+
+}
+.about .lead{
+    color: #FF5421;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 15px;
+    text-transform: uppercase;
+
+}
+.about h1{
+    text-transform: capitalize;
+    color: black;
+}
+
+/* nav bar background */
+
+nav.navbar.navbar-expand-lg.navbar-light.fixed-top.scrolling-navbar{
+    background: transparent;
+    
+    /* background-color: #fff; */
+}
+
+.navbar-nav .active>.nav-link{
+  color: #FF5421 !important;
+
+}
+.navbar-brand > span{
+    font-weight: bold;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.navbar-brand span:first-child{
+    color: #FF5421;
+}
+.navbar-brand span:last-child{
+    color:#171f32;
+}
+
+.navbar-nav .nav-link
+{
+    
+    color:#fff;
+    font-weight: bold;
+
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-left: 20px;
+    transition: color 0.5s;
+}
+
+.navbar-nav .nav-link:hover{
+    color: #FF5421 !important;
+}
+.minus-icon{
+    display: none;
+}
+.navbar-nav .nav-link:hover .minus-icon{
+    display: inline;
+    
+}
+.navbar-nav .nav-link:hover .plus-icon{
+    display: none;
+    
+}
+
+/* icons in nav bar link */
+.minus-icon , .plus-icon{
+    font-family: Fontawesome !important;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 100 !important;
+    font-style: normal;
+}
+
+.navbar-brand img{
+    max-height: 30px;
+   margin: 10px;
+   
+}
+
+/* nav bar drop down */
+.dropdown-menu{
+    border-bottom: 5px solid #FF5421;
+}
+.dropdown:hover{
+    border: 0px;
+}
+
+/* navbar form */
+.navbar form input{
+    border: 1px solid #FF5421;
+}
+.navbar form button{
+    border: 1px solid #FF5421;
+    color: #FF5421;
+}
+.navbar form button:hover{
+    border: 1px solid #FF5421;
+    background-color: #FF5421;
+}
+
+
+/* ovarlay on slider */
+.slider .carousel-inner .overlay{
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+
+
+}
+/* next and prev button */
+.carousel-control-prev,
+.carousel-control-next{
+
+    /* position: absolute; */
+    /* z-index: 2; */
+}
+
+/* div contain images  slider carousel-item */
+.slider .carousel-item{
+
+    background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    /* z-index: 0; */
+}
+
+/* image1 */
+.slider .carousel-one{
+    background-image: url(imgs/img5.jpg);
+}
+/* image2 */
+.slider .carousel-two{
+    background-image: url(imgs/img6.jpg);
+}
+/* image3 */
+.slider .carousel-three{
+    background-image: url(imgs/img3.jpg);
+}
+/* want to overload on next button to view image when hover */
+
+.carousel-control-next-icon:hover{
+    
+}
+
+/* div contain images slider caption */
+.carousel-caption.d-none.d-md-block {
+    display: flex;  
+    top: 20%;
+    /* left: 30%; */
+    /* transform: translate(-50,-50); */
+
+}
+
+.carousel-caption.d-none.d-md-block  h5{
+    color: #FF5421;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 15px;
+    text-transform: uppercase;
+    
+
+}
+.carousel-caption.d-none.d-md-block h1{
+    color: white;
+    font-weight: bold;
+    font-size: 3rem;
+    max-width: 900px ;
+    text-transform: capitalize;
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.more-button{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.more-button button{
+    background-color:#FF5421 ;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-size: 14px;
+    border: 2px solid #02010100;
+    border-radius: 5px;
+    font-weight: 500;
+    transition: background-color 1s;
+
+}
+
+.more-button button:hover{
+    background-color: #171f32;
+}
+
+/* courses overview section */
+
+.courses-overview .card.about-course{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    transition: margin 0.5s;
+    
+
+}
+.courses-overview .card.about-course:hover{
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.courses-overview .card.about-course .img{
+    
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-radius: 10px;
+    z-index: 0;
+    
+}
+.courses-overview .card.about-course a{
+    cursor: pointer;
+}
+.courses-overview .card.about-course .card-body {
+    padding-top: 300px;
+    margin: auto;
+    z-index: 2;
+}
+.courses-overview .card.about-course .card-body .card-title
+{
+    color:#FFFFFF ;
+    text-transform: capitalize;
+    font-weight: bold;
+    transition: color 1s;
+}
+.courses-overview .card.about-course .card-body .card-title:hover{
+    color: #FF5421;
+    text-decoration: none;
+    cursor: pointer;
+}
+.courses-overview .card.about-course .card-body .card-text{
+    color:#FFFFFF ;
+    text-transform: capitalize;
+
+
+}
+
+.courses-overview .card.about-course .overlay{
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 10px;
+
+
+}
+
+/*  end courses overview section */
+
+
+
+.rate-star{
+    /* border: 1px solid orange; */
+    
+}
+.rate-star.checked{
+    color: orange;
+}
+.card.popular-courses .card-img{
+    overflow: hidden;
+    transition: transform 2s;
+}
+.card.popular-courses .card-img img{
+    transition: transform 1s;
+
+}
+.card.popular-courses:hover img{
+
+    transform: scale(1.1);
+  
+
+}
+
+.card.popular-courses{
+    border: 0;
+}
+.card.popular-courses .card-body{
+    /* padding: 25px 13px;
+    /* height: 15rem; */
+    /* margin-bottom: 50px;      */
+}
+.card.popular-courses .card-body .bottem-data{
+    border-top: 1px solid #f0efef;
+    /* margin-top: 100px; */
+    align-items: center;
+    text-align: center;
+}
+.card.popular-courses .card-body li{
+    list-style: none;
+}
+.card.popular-courses .card-body .bottem-data i{
+    padding-top: 10px;
+    font-size: 15px;
+
+    color: #FF5421;
+
+}
+.card.popular-courses .card-body .bottem-data span{
+    padding-top: 10px;
+    font-size: 13px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: gray;
+}
+
+.card.popular-courses .card-body a{
+    width: 100%;
+    font-size: 1.3rem;
+    display: block;
+    color: #171f32;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.8s;
+}
+.card.popular-courses .card-body a:hover{
+    color: #FF5421;
+}
+
+.card.popular-courses .price{
+    position: absolute;
+    width: 80px;
+    height: 30px;
+    top: 5%;
+    left: 70%;
+    background-color: #FF5421;
+    color: #fff;
+    z-index: 1;
+    text-align: center;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.card.popular-courses{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    /* transition: margin 0.5s; */
+    
+
+}
+
+
+
+/* start offer-section */
+
+
+.container-fluid.offer-section-container
+{
+    /* padding:0 ; */
+    /* margin: 0 0 50px 0; */
+    min-height: 500px;
+
+}
+.offer-section{
+    /* padding: 0; */
+    /* margin: 0; */
+    height: 600px;
+    /* background-color: aqua; */
+}
+.offer-section .offer-section-left
+{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    background-size: cover;
+    background-image:url("imgs/img4.jpg");
+    /* overflow: hidden; */
+}
+
+.offer-section .offer-section-right
+{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    background-size: cover;
+    background-image:url("imgs/img1.jpg");
+    
+    
+
+    overflow: hidden;
+}
+.offer-section .offer-section-right .overlar{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 31, 0.7);
+    z-index: 0;
+    
+
+}
+.offer-section .offer-section-right .content{
+    position: relative;
+    z-index:1;
+    padding: 50px;
+    
+}
+.offer-section .offer-section-right .content h1{
+    color: #f0efef;
+}
+.offer-section .offer-section-right .content p{
+    color:  #f0efef;
+    line-height: 1.7;
+}
+
+.offer-section .offer-section-right .content button{
+    margin-top: 50px;
+    background-color:#FF5421 ;
+    color:  #f0efef;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-size: 14px;
+    border: 2px solid #02010100;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 1s, color 1s;
+
+}
+
+.offer-section .offer-section-right .content button:hover{
+    background-color: #f0efef;
+    color: #171f32;
+}
+/* end offer-section */
+
+
+
+
+
+/* collapse section */
+#accordionExample button{
+    border: 0;
+    color: #fff;
+    text-decoration: none;
+    background-color: #ff5421;
+    font-weight: bolder;
+
+}
+#accordionExample .card-header{
+    background-color: #ff5421;
+}
+
+
+.accordion .card .card-header button    {
+    background-color: #fff;
+    color: #171f32;
+}
+.accordion .card .card-header {
+    background-color: #fff;
+    
+}
+.accordion .card .card-body{
+    background-color: #fff;
+}
+
+.video-content{
+    position: relative;
+}
+.video-content .play-video-btn{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    z-index: 2;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #fff;
+    border: 1px solid #ff5421;
+    box-shadow: #ff5421;
+    
+}
+.video-content .play-video-btn i{
+    color: #ff5421;
+    font-family: Fontawesome !important;
+    font-style: normal;
+    font-size: 25px;
+    text-align: center;
+
+
+}
+
+
+
+
+
+/* card slider */
+
+.card-slider{
+    padding: 50px;
+    margin-bottom: 200px;
+    background-color:  whitesmoke;
+}
+.card-slider .carousel-multi-item .carousel-indicators li{
+    width: 30px;
+    height: 8px;
+    border-radius: 15px;
+    background-color: #FF5421;
+    transition: all 0.5s;
+}
+.card-slider .carousel-multi-item .carousel-indicators li.active{
+    width: 50px;
+   
+}
+.card-slider .carousel-multi-item .carousel-indicators li:hover{
+    width: 50px;
+    
+}
+
+.card-slider .carousel-item .card{
+    width:100%;
+    /* margin-top: 5px; */
+    transition: all 0.3s;
+}
+.card-slider .carousel-item .card:hover{
+
+    
+    /* margin-top: 0px; */
+    transform: scale(1.05);
+}
+
+.card-slider .carousel-item .card .card-body i{
+    color: #FF5421;
+    font-family: Fontawesome !important;
+    font-style: normal;
+    padding-right: 2px;
+}
+.card-slider .carousel-item .card .card-body a{
+    text-decoration: none;
+    font-size: 13px;
+    color: darkslategray;
+    font-family: 'Nunito', sans-serif !important;
+    transition: all 0.5s;
+
+}
+
+.card-slider .carousel-item .card .card-body a h4{
+    color: black;
+    transition: all 0.5s;
+}
+.card-slider .carousel-item .card .card-body a:hover,
+.card-slider .carousel-item .card .card-body a h4:hover{
+    color: #FF5421;
+}
+
+.card-slider .carousel-item .card .card-body p{
+    font-size: 13px;
+}
+
+
+
+/* footer  */
+
+.footer-container,.copyright-section{
+
+    background-color:#151515;
+    position: relative;
+    
+}
+
+.footer-container h5{
+    font-size: 20px;
+    color: #fff;
+    padding-top: 20px;
+}
+.footer-container a{
+    font-size: 16px;
+    color: #fff;
+    line-height: 2;
+    text-decoration: none;
+
+    
+    
+    transition: all 0.5s;
+}
+
+.footer-container a:hover{
+    color: #ff5421;
+}
+.footer-container p{
+    font-size: 16px;
+    color: #fff;
+    line-height: 2;
+
+}
+.footer-container .footer-icon{
+    font-family: Fontawesome !important;
+    font-size: 10px;
+    text-align: center;
+    font-weight: 100 !important;
+    color: #ff5421;
+    font-style: normal;
+    padding-right: 2px;
+}
+
+.footer-container .footer-absolute-box{
+    background-color: #171f32;
+    position: absolute;
+    top: -100px;
+    width: 80%;
+    margin: auto;
+
+    
+    z-index: 1;
+    
+}
+.footer-absolute-box h1{
+    color: #fff;
+    font-weight: bold;
+}
+
+.footer-absolute-box form input{
+    width: 60%;
+    height: 50px;
+    border: 0 solid #fff;
+    border-radius: 5px;
+}
+.footer-absolute-box form button{
+    width: 30%;
+    height: 50px;
+    background-color: #ff5421;
+
+    color: #fff;
+    border: 0px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 5px; 
+}
+
+.copyright{
+    border-top: 1px solid gray;
+    
+}
